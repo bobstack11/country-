@@ -1,5 +1,6 @@
 
-package org.patchca.word;
+package org.patchca.word; 
+
 
 public interface WordFactory {
 
