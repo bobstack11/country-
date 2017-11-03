@@ -7,7 +7,7 @@ import org.patchca.font.FontFactory;
 import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.Rectangle2D;
-import java.awt.image.BufferedImage;
+import java.awt.image.BufferedImage; 
 
 public abstract class AbstractTextRenderer implements TextRenderer {
 
