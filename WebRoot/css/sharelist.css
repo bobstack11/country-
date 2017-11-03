@@ -1,0 +1,281 @@
+.marginB {
+	margin-bottom: 100px;
+}
+/* 分享赚钱 */
+.m_share {
+	position: relative;
+	overflow: hidden;
+}
+
+.shareCon {
+	margin-bottom: 20px;
+}
+
+.shareCon .m_banner {
+	display: block;
+	background: #e33810
+		url(http://mskin.1yyg.com/weixin/Member/Images/share_01.jpg?v=140901)
+		center no-repeat;
+	background-size: 190px auto;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.shareCon dl {
+	text-align: center;
+	padding: 0 8px;
+	margin-top: 20px;
+}
+
+.shareCon dt {
+	font-size: 14px;
+	margin: 35px 0 20px;
+	color: #bbb;
+}
+
+.shareCon dd {
+	clear: both;
+	color: #bbb;
+	font-size: 14px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.shareCon dd:nth-child(6n-5) {
+	text-align: left;
+}
+
+.shareCon dd a.orangeBtn {
+	display: block;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	letter-spacing: 3px;
+	margin: 0 auto 30px;
+}
+
+.shareCon dd b {
+	display: inline-block;
+	border-left: 1px solid #dedede;
+	width: 1px;
+	height: 16px;
+	position: relative;
+	top: 3px;
+	margin: 0 30px;
+}
+
+.shareCon dd input {
+	padding-left: 5px;
+	height: 35px;
+	color: #bbb;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	font-size: 14px;
+	-webkit-box-sizing: border-box;
+}
+
+.shareCon dd input[type=tel] {
+	width: 100%;
+}
+
+.shareCon dd input[type=text] {
+	float: left;
+	width: 65%;
+}
+
+.shareCon a.m_get,.shareCon a.m_binding {
+	display: block;
+	background: #f60;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.shareCon a.m_get {
+	float: right;
+	width: 33%;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+
+.shareCon a.m_binding {
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+.shareCon a.notClick {
+	background: #f6f6f6;
+	color: #ccc;
+}
+
+.shareCon dd.ddbind {
+	height: 37px;
+	margin-bottom: 30px;
+}
+
+.m_popUp {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	filter: alpha(opacity = 90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.m_guide {
+	line-height: 25px;
+	padding-left: 20px;
+}
+
+.m_guide span {
+	display: block;
+	background:
+		url(http://mskin.1yyg.com/weixin/Member/Images/share_02.png?v=140902)
+		top right no-repeat;
+	background-size: 320px auto;
+	height: 85px;
+}
+
+.m_how {
+	margin-top: 50px;
+}
+
+.m_how h4 {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 120px;
+	margin-bottom: 5px;
+}
+
+.m_how p {
+	color: #999;
+	line-height: 25px;
+	text-indent: -1.2em;
+	padding: 5px 10px 5px 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.sub_nav s,.sub_nav i,.g-Recharge li s,.z-pay-mentsel,.shareCon p s {
+	background:
+		url(http://mskin.1yyg.com/weixin/Member/Images/m_set.png?v=150119);
+	background-size: 20px auto;
+}
+
+.sub_nav {
+	clear: both;
+	width: 100%;
+}
+
+.sub_nav a {
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	color: #666;
+	font-size: 16px;
+	padding: 0 10px 0 13px;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	margin-top: -1px;
+}
+
+.sub_nav s,.sub_nav i {
+	display: block;
+	position: relative;
+	top: 16px;
+}
+
+.sub_nav s {
+	float: left;
+	margin-right: 10px;
+	margin-left: 2px;
+	width: 17px;
+}
+
+.sub_nav s.m_s1 {
+	background-position: 0 0;
+	height: 15px;
+}
+
+.sub_nav s.m_s2 {
+	background-position: 0 -16px;
+	height: 17px;
+	top: 16px;
+}
+
+.sub_nav s.m_s3 {
+	background-position: 0 -36px;
+	height: 16px;
+}
+
+.sub_nav s.m_s4 {
+	background-position: 0 -124px;
+	height: 17px;
+	top: 15px;
+}
+
+.sub_nav s.m_s5 {
+	background-position: 0 -53px;
+	height: 16px;
+}
+
+.sub_nav s.m_s6 {
+	background-position: 0 -143px;
+	height: 18px;
+	top: 15px;
+}
+
+.sub_nav s.m_s7 {
+	background-position: 0 -163px;
+	height: 17px;
+	top: 15px;
+}
+
+.sub_nav i {
+	float: right;
+	background-position: 0 -70px;
+	width: 7px;
+	height: 13px;
+	top: 18px;
+}
+
+.m_buylistDet dd a.orangeBtn,.m_buylistDet dd a.grayBtn {
+	border-radius: 3px;
+	line-height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	display: block;
+	margin-top: 2px;
+}
+
+.orangeBtn,.grayBtn,.whiteBtn {
+	text-align: center;
+	border-radius: 5px;
+}
+
+.orangeBtn {
+	background: #f60;
+	color: #fff;
+}
+
+.blueBtn {
+	background: #2af;
+}
+
+.grayBtn {
+	background: #f0f0f0;
+	color: #999;
+}
+
+.whiteBtn {
+	background: #fff;
+	color: #f60;
+	border: 1px solid #dedede;
+}

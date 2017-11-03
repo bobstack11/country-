@@ -1,0 +1,268 @@
+.h5-1yyg-v1 {
+    padding-top: 39px;
+}
+/* 头部导航 */
+.m-simpleHeader,.m-simpleFooter {
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	right: 0;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #D4D4D4;
+	background: rgba(240, 240, 240, .8);
+}
+
+.m-simpleHeader {
+	top: 0;
+	border-width: 0 0 1px;
+	box-shadow: 0 1px 3px 0px rgba(160, 160, 160, 0.2);
+	text-align: center;
+}
+
+.m-simpleHeader-back {
+	position: absolute;
+	left: 0;
+	padding: 0 15px;
+	overflow: hidden;
+	height: 38px;
+}
+
+.m-simpleHeader h1 {
+	font-size: 16px;
+	color: #222;
+}
+
+.m-simpleFooter {
+	padding: 8px 10px;
+	bottom: 0;
+	border-width: 1px 0;
+	line-height: 32px;
+	height: 32px;
+}
+
+.m-simpleFooter-ext {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+
+.m-simpleHeader-ok,.m-simpleHeader-cancel {
+	position: absolute;
+	padding: 0 14px;
+}
+
+.m-simpleHeader-ok {
+	right: 0;
+}
+
+.m-simpleHeader-cancel {
+	left: 0;
+}
+
+.m-simpleBody {
+	padding-top: 38px;
+}
+
+
+/* 头部导航按钮 */
+#moreBtn {
+	position: fixed;
+	top: 0;
+	right: 5px;
+	z-index: 2;
+	padding: 0 10px;
+	line-height: 36px;
+}
+
+#moreBtn .ico-dot {
+	top: 10px;
+	right: 0
+}
+
+.m-detail-menu {
+	position: fixed;
+	top: 38px;
+	right: 10px;
+	z-index: 2;
+}
+
+.m-detail-menu .ico-arrow {
+	position: absolute;
+	top: -2px;
+	right: -4px;
+}
+
+.m-detail-menu-list {
+	background: rgba(0, 0, 0, .9);
+	border-radius: 4px;
+}
+
+.m-detail-menu-list li {
+	border-bottom: 1px solid #4d4d4d;
+}
+
+.m-detail-menu-list li.last {
+	border: 0;
+}
+
+.m-detail-menu-list .miniCart,.m-detail-menu-list .ico-home {
+	margin-right: 10px;
+	margin-top: -6px;
+}
+
+.m-detail-menu-list .item {
+	display: block;
+	padding: 0 10px;
+	width: 130px;
+	line-height: 40px;
+	color: #B6B7B9
+}
+
+.m-detail-menu-list .miniCart,.m-detail-menu-list .ico-home {
+	margin-right: 10px;
+	margin-top: -6px;
+}
+
+.m-detail-menu-list .item {
+	display: block;
+	padding: 0 10px;
+	width: 130px;
+	line-height: 40px;
+	color: #B6B7B9
+}
+
+.w-miniCart {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.w-miniCart .ico-miniCart {
+	position: relative;
+	left: 0;
+	top: -3px;
+}
+
+.w-miniCart .w-miniCart-count {
+	top: 5px;
+	left: 65px;
+}
+
+/* 通用样式 */
+
+.ico {
+	display: inline-block;
+	vertical-align: middle;
+	background: url('http://mimg.127.net/p/yymobile/1511072243/img/mix-icon.png') no-repeat;
+	background-size: 300px 300px;
+}
+
+.ico-logo {
+	width: 94px;
+	height: 22px;
+	background-position: 0 0;
+}
+
+.ico-search {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -25px;
+}
+
+.ico-userpage {
+	width: 24px;
+	height: 24px;
+	background-position: -25px -25px;
+}
+
+.ico-bonus {
+	width: 24px;
+	height: 24px;
+	background-position: -50px -25px;
+}
+
+.ico-bonus-s {
+	width: 13px;
+	height: 15px;
+	background-position: -215px 0
+}
+
+.ico-more {
+	width: 24px;
+	height: 24px;
+	background-position: -150px -25px;
+}
+
+.ico-home {
+	width: 24px;
+	height: 24px;
+	background-position: -75px -25px;
+}
+
+.ico-home-light {
+	background-position: -100px -25px;
+}
+
+.ico-del {
+	width: 16px;
+	height: 17px;
+	background-position: -145px 0;
+}
+
+.ico-dot {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #ff002b;
+	border: 2px solid #fff;
+	box-shadow: 0px 0px 0 rgba(255, 255, 255, 0);
+	-webkit-animation: breath 0.8s 3 ease-in-out;
+	-moz-animation: breath 0.8s 3 ease-in-out;
+	animation: breath 0.8s 3 ease-in-out;
+}
+
+.ico-arrow-transGray {
+	width: 15px;
+	height: 0;
+	border-width: 15px;
+	border-color: transparent;
+	border-left: 15px solid rgba(0, 0, 0, .9);
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+.ico-miniCart {
+	position: relative;
+    left: 0;
+    top: -3px;
+    margin-right: 10px;
+}
+
+.ico-miniCart-gray {
+	width: 24px;
+    height: 24px;
+    background-position: -125px -25px;
+}
+
+.ico-back {
+	width: 11px;
+    height: 11px;
+    border-width: 2px 0 0 2px;
+    color: #8a8a8a;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border-style: solid;
+    background: none;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+time, mark, output, meter, address, cite, em, code, var, dfn, ins, i, th, caption {
+    font-style: normal;
+    text-decoration: none;
+}
+
